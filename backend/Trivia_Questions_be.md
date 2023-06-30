@@ -7,7 +7,7 @@
           If we have Instructions A, B, C, these are performed liked A->B->C in a single threaded process
     3. What is a multi-threaded process
        1. It is the execution of programmed instructions in multiple sequences. Therefore, instructions wont have to wait to execute unless multiple instructions are grouped within different sequences.
-          ![img](img_1.png)
+          ![img](images/img_1.png)
     4. Event loop runs things single threaded but "puts aside" the long time consuming I/O operations like Api request allowing it to run the rest of the instructions.
     5. Answer: Nodejs uses singlethreaded event loop model.
  2. Nodejs event loop
